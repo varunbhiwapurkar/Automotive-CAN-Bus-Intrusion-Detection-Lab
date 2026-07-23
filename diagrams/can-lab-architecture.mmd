@@ -1,0 +1,7 @@
+flowchart LR
+  A[ICSim + controls] --> B[vcan0 SocketCAN]
+  C[Spoof/Replay/DoS Scripts] --> B
+  B --> D[Wireshark]
+  B --> E[Python IDS]
+  E --> F[logs/ids_alerts.log]
+  D --> G[screenshots/*]
