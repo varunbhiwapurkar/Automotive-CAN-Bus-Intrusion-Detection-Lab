@@ -34,6 +34,9 @@ This project demonstrates how attackers exploit vulnerabilities in the Controlle
 ## Project Progress
 
 - [ ] Step 1 – Configure Virtual CAN Environment
+        - Completed package index update.
+        - Verified `can-utils` installation.
+    (Successfully configured a Virtual CAN interface (`vcan0`) using Linux SocketCAN. Verified that the interface was operational and ready for CAN communication.)
 - [ ] Step 2 – Install and Run ICSim
 - [ ] Step 3 – Capture Normal CAN Traffic
 - [ ] Step 4 – Simulate CAN Attacks
