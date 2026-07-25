@@ -38,6 +38,23 @@ This project demonstrates how attackers exploit vulnerabilities in the Controlle
         - Verified `can-utils` installation.
     (Successfully configured a Virtual CAN interface (`vcan0`) using Linux SocketCAN. Verified that the interface was operational and ready for CAN communication.)
 - [ ] Step 2 – Install and Run ICSim
+                    
+            git clone https://github.com/zombieCraig/ICSim.git
+            # Troubleshooting
+            ## Issue 1 – ICSim failed to compile on Apple Silicon
+
+            ### Problem
+
+            The ICSim repository contained a precompiled x86_64 object file (`lib.o`), which caused linker errors on an ARM64 VM.
+
+            ### Resolution
+
+            Removed the x86_64 object file and rebuilt it locally.
+
+            ```bash
+            rm lib.o
+            gcc -I/usr/include/SDL2 -Wall -Wextra -c lib.c
+            make    
 - [ ] Step 3 – Capture Normal CAN Traffic
 - [ ] Step 4 – Simulate CAN Attacks
 - [ ] Step 5 – Build CAN Intrusion Detection System
