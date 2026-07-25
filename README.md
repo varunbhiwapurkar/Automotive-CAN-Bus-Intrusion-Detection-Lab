@@ -56,6 +56,7 @@ This project demonstrates how attackers exploit vulnerabilities in the Controlle
             gcc -I/usr/include/SDL2 -Wall -Wextra -c lib.c
             make    
 - [ ] Step 3 – Capture Normal CAN Traffic
+      wireshark
 - [ ] Step 4 – Simulate CAN Attacks
 - [ ] Step 5 – Build CAN Intrusion Detection System
 - [ ] Step 6 – Map Findings to ISO/SAE 21434 & UNECE R155
