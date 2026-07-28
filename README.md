@@ -27,7 +27,7 @@ This project demonstrates how attackers exploit vulnerabilities in the Controlle
 - Python
 - python-can
 - Git
-- Github
+- GitHub
 
 ---
 
