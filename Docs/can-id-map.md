@@ -27,8 +27,12 @@ Automotive CAN Bus Intrusion Detection & Attack Simulation Lab
 
 ## Known CAN IDs
 
+
+|---------|----------|--------|
 | CAN ID | Function | Status |
 |---------|----------|--------|
+| 0x188 | Left Indicator | Verified |
+
 | TBD | To be identified during attack analysis | Pending |
 
 ---
