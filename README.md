@@ -13,7 +13,7 @@ This project demonstrates how attackers exploit vulnerabilities in the Controlle
 - Develop a Python-based CAN Intrusion Detection System.
 - Analyze CAN traffic using Wireshark.
 - Map attacks to ISO/SAE 21434 and UNECE R155.
-- Document the project like a professional automotive security assessment.
+- Document project like a professional automotive security assessment.
 
 ---
 
