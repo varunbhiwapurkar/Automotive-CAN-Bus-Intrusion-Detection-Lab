@@ -8,7 +8,7 @@ This project demonstrates how attackers exploit vulnerabilities in the Controlle
 
 ## Objectives
 
-- Build virtual a CAN network using SocketCAN.
+- Build virtual CAN network using SocketCAN.
 - Simulate real-world CAN attacks.
 - Develop a Python-based CAN Intrusion Detection System.
 - Analyze CAN traffic using Wireshark.
